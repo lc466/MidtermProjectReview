@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120" role="img" aria-labelledby="tsTitle">
+  <title id="tsTitle">Computing history from the 1940s to today</title>
+  <defs>
+    <linearGradient id="tsg" x1="0" x2="1"><stop offset="0" stop-color="#0b4f6c"/><stop offset="1" stop-color="#4a9eff"/></linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="8" fill="#f5f9fc" stroke="#d0e4f2"/>
+  <line x1="40" y1="58" x2="860" y2="58" stroke="url(#tsg)" stroke-width="6" stroke-linecap="round"/>
+  <g font-family="Segoe UI, Roboto, sans-serif" font-size="11" fill="#333">
+    <circle cx="100" cy="58" r="10" fill="#0b4f6c"/><text x="100" y="88" text-anchor="middle" font-weight="600">1940s</text>
+    <circle cx="260" cy="58" r="10" fill="#12658a"/><text x="260" y="88" text-anchor="middle" font-weight="600">1950s60s</text>
+    <circle cx="420" cy="58" r="10" fill="#1a7a9e"/><text x="420" y="88" text-anchor="middle" font-weight="600">1970s80s</text>
+    <circle cx="580" cy="58" r="10" fill="#2a8ab8"/><text x="580" y="88" text-anchor="middle" font-weight="600">1990s2000s</text>
+    <circle cx="780" cy="58" r="10" fill="#4a9eff"/><text x="780" y="88" text-anchor="middle" font-weight="600">2010s+</text>
+  </g>
+  <text x="450" y="28" text-anchor="middle" fill="#0b4f6c" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="700">Eras of computing (overview)</text>
+</svg>

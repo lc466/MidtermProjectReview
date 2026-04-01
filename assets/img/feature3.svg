@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240" role="img" aria-labelledby="f3Title">
+  <title id="f3Title">SR latch built from NAND gates</title>
+  <defs>
+    <linearGradient id="f3bg" x1="0" x2="1"><stop offset="0" stop-color="#f0fff4"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="10" fill="url(#f3bg)" stroke="#c8e6d0"/>
+  <!-- Wires -->
+  <g stroke="#2d5a3d" stroke-width="2" fill="none">
+    <path d="M20 80 H80"/><path d="M20 120 H80"/><path d="M200 80 H260"/><path d="M200 120 H260"/>
+    <path d="M140 70 Q170 70 170 100 Q170 130 140 130"/>
+    <path d="M140 130 Q100 130 100 100"/>
+  </g>
+  <!-- NAND symbols (simplified D shapes) -->
+  <g font-family="Segoe UI, Roboto, sans-serif">
+    <path d="M80 50 H130 Q150 50 150 80 Q150 110 130 110 H80 Z" fill="#fff" stroke="#1a5c2e" stroke-width="2"/>
+    <text x="108" y="88" text-anchor="middle" font-size="11" font-weight="700" fill="#1a5c2e">NAND</text>
+    <path d="M80 130 H130 Q150 130 150 160 Q150 190 130 190 H80 Z" fill="#fff" stroke="#1a5c2e" stroke-width="2"/>
+    <text x="108" y="168" text-anchor="middle" font-size="11" font-weight="700" fill="#1a5c2e">NAND</text>
+  </g>
+  <!-- LED output -->
+  <circle cx="300" cy="100" r="22" fill="#ffe8e0" stroke="#ff7a59" stroke-width="3"/>
+  <text x="300" y="106" text-anchor="middle" font-family="Segoe UI, Roboto, sans-serif" font-size="16" font-weight="800" fill="#c44">Q</text>
+  <text x="20" y="88" fill="#555" font-size="10" font-family="Segoe UI, Roboto, sans-serif">S (set)</text>
+  <text x="20" y="128" fill="#555" font-size="10" font-family="Segoe UI, Roboto, sans-serif">R (reset)</text>
+  <text x="20" y="200" fill="#0b4f6c" font-family="Segoe UI, Roboto, sans-serif" font-size="15" font-weight="700">Circuit Visualizer</text>
+  <text x="20" y="222" fill="#555" font-family="Segoe UI, Roboto, sans-serif" font-size="12">Transistors, gates, and flip-flop sandbox</text>
+</svg>

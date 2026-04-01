@@ -28,16 +28,16 @@ document.addEventListener('DOMContentLoaded', function () {
   function handleActivity(key) {
     switch (key) {
       case 'cpu':
-        showModal('Open CPU Emulator', 'Opening the CPU emulator workspace. You will be taken to Missions.', [{ label: 'Go', href: '/site/missions.html#cpu', class: 'btn-primary' }]);
+        showModal('Open CPU Emulator', 'Opening the CPU emulator workspace. You will be taken to Missions.', [{ label: 'Go', href: 'missions.html#cpu', class: 'btn-primary' }]);
         break;
       case 'punch':
-        showModal('Punch-card Simulator', 'Open the punch-card simulator example in Missions.', [{ label: 'Go', href: '/site/missions.html#punch', class: 'btn-primary' }]);
+        showModal('Punch-card Simulator', 'Open the punch-card simulator example in Missions.', [{ label: 'Go', href: 'missions.html#punch', class: 'btn-primary' }]);
         break;
       case 'circuit':
-        showModal('Circuit Visualizer', 'Open the Circuit Visualizer sandbox in Missions.', [{ label: 'Go', href: '/site/missions.html#circuit', class: 'btn-primary' }]);
+        showModal('Circuit Visualizer', 'Open the Circuit Visualizer sandbox in Missions.', [{ label: 'Go', href: 'missions.html#circuit', class: 'btn-primary' }]);
         break;
       case 'explore':
-        showModal('Explore Demos', 'Jump to the active workspace where modules run.', [{ label: 'Go', href: '/site/missions.html', class: 'btn-primary' }]);
+        showModal('Explore Demos', 'Jump to the active workspace where modules run.', [{ label: 'Go', href: 'missions.html', class: 'btn-primary' }]);
         break;
       default:
         showModal('Coming soon', 'This activity will be available in the interactive prototype soon.');

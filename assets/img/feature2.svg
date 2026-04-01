@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240">
-  <rect width="100%" height="100%" rx="8" fill="#fff"/>
-  <g fill="#0077cc" font-family="Segoe UI, Roboto, Arial">
-    <text x="20" y="72" font-size="18" font-weight="700">Punch-card Simulator</text>
-    <text x="20" y="102" font-size="13" fill="#333">Build decks, run the reader, and print output</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240" role="img" aria-labelledby="f2Title">
+  <title id="f2Title">Punch card with encoded holes</title>
+  <defs>
+    <linearGradient id="f2bg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fff8f0"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="10" fill="url(#f2bg)" stroke="#f0e0d0"/>
+  <!-- Card -->
+  <rect x="48" y="28" width="304" height="160" rx="8" fill="#faf6f0" stroke="#c4a882" stroke-width="2"/>
+  <!-- holes grid 12 cols x 6 rows -->
+  <g fill="#2a2a2a">
+    <g transform="translate(68 48)">
+      <circle cx="0" cy="0" r="7"/><circle cx="36" cy="0" r="7"/><circle cx="72" cy="0" r="7"/><circle cx="108" cy="0" r="7"/>
+      <circle cx="0" cy="32" r="7"/><circle cx="72" cy="32" r="7"/><circle cx="144" cy="32" r="7"/>
+      <circle cx="36" cy="64" r="7"/><circle cx="108" cy="64" r="7"/><circle cx="180" cy="64" r="7"/>
+      <circle cx="0" cy="96" r="7"/><circle cx="144" cy="96" r="7"/><circle cx="216" cy="96" r="7"/>
+    </g>
   </g>
+  <!-- Reader slot hint -->
+  <rect x="48" y="200" width="304" height="8" rx="2" fill="#0077cc" opacity="0.35"/>
+  <text x="200" y="206" text-anchor="middle" fill="#0077cc" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="700">Punch-card Simulator</text>
+  <text x="200" y="226" text-anchor="middle" fill="#666" font-family="Segoe UI, Roboto, sans-serif" font-size="11">Build decks · run the reader · view output</text>
 </svg>

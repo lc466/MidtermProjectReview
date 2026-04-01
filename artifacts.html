@@ -4,19 +4,19 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Artifacts — Museum</title>
-  <link rel="stylesheet" href="/site/assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container">
-      <a class="brand" href="/site/index.html">Museum</a>
+      <a class="brand" href="index.html">Museum</a>
       <nav class="nav">
-        <a href="/site/index.html">Home</a>
-        <a href="/site/timeline.html">Timeline</a>
-        <a href="/site/missions.html">Missions</a>
-        <a href="/site/artifacts.html">Artifacts</a>
-        <a href="/site/gallery.html">Gallery</a>
-        <a href="/site/visit.html">Visit</a>
+        <a href="index.html">Home</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="missions.html">Missions</a>
+        <a href="artifacts.html">Artifacts</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="visit.html">Visit</a>
       </nav>
     </div>
   </header>
@@ -26,20 +26,26 @@
     <p>Selected artifacts supporting modules and timeline events. Each artifact includes provenance metadata and curator notes (to be populated).</p>
 
     <ul class="artifact-list">
-      <li>
-        <strong>Punched Card (Example)</strong>
-        <p>Provenance: Reproduction for education. <a href="#">Curator notes</a></p>
+      <li class="artifact-row">
+        <img src="assets/img/artifact-card.svg" width="200" height="125" alt="Illustration of an 80-column punch card reproduction">
+        <div>
+          <strong>Punched Card (Example)</strong>
+          <p>Provenance: Reproduction for education. <a href="#">Curator notes</a></p>
+        </div>
       </li>
-      <li>
-        <strong>Transistor Diagram</strong>
-        <p>Provenance: Public domain schematic. <a href="#">Curator notes</a></p>
+      <li class="artifact-row">
+        <img src="assets/img/transistor-schematic.svg" width="200" height="125" alt="NPN transistor schematic symbol">
+        <div>
+          <strong>Transistor Diagram</strong>
+          <p>Provenance: Public domain schematic. <a href="#">Curator notes</a></p>
+        </div>
       </li>
     </ul>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <small>Spec & project notes: <a href="../SPEC.md">SPEC.md</a></small>
+      <small>Spec & project notes: <a href="SPEC.md">SPEC.md</a></small>
     </div>
   </footer>
 </body>
