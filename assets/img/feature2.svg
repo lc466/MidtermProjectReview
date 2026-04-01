@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240">
+  <rect width="100%" height="100%" rx="8" fill="#fff"/>
+  <g fill="#0077cc" font-family="Segoe UI, Roboto, Arial">
+    <text x="20" y="72" font-size="18" font-weight="700">Punch-card Simulator</text>
+    <text x="20" y="102" font-size="13" fill="#333">Build decks, run the reader, and print output</text>
+  </g>
+</svg>

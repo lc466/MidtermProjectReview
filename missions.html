@@ -30,21 +30,69 @@
         <h3>Sum Two Numbers — CPU Emulator</h3>
         <p>Objective: Write a short program to add two memory values and store the result.</p>
         <p>Time: 10–15 min • Difficulty: Beginner</p>
-        <a class="btn" href="#">Open Workspace (placeholder)</a>
+        <a class="btn" href="#cpu">Open Workspace (placeholder)</a>
       </li>
       <li>
         <h3>Punch-card Hello</h3>
         <p>Objective: Design a deck that prints a short message to the simulated output.</p>
         <p>Time: 5–10 min • Difficulty: Beginner</p>
-        <a class="btn" href="#">Open Workspace (placeholder)</a>
+        <a class="btn" href="#punch">Open Workspace (placeholder)</a>
       </li>
       <li>
         <h3>Build a Flip-flop — Circuit Visualizer</h3>
         <p>Objective: Assemble a simple latch and observe state toggling.</p>
         <p>Time: 15–25 min • Difficulty: Intermediate</p>
-        <a class="btn" href="#">Open Workspace (placeholder)</a>
+        <a class="btn" href="#circuit">Open Workspace (placeholder)</a>
       </li>
     </ul>
+
+    <section id="modules-workspace" class="workspace" aria-live="polite">
+      <h2>Active Workspace</h2>
+      <section id="cpu">
+        <h3>CPU Emulator (mini-stepper)</h3>
+        <p>Mini-emulator: step through a tiny program and watch registers and memory update.</p>
+        <pre class="cpu-program">LOAD R0, [0]
+LOAD R1, [1]
+ADD R0, R1
+STORE R0, [2]</pre>
+        <div style="display:flex;gap:12px;align-items:center;margin-top:8px">
+          <div><strong>PC:</strong> <span class="cpu-pc">0</span></div>
+          <div><strong>Registers:</strong>
+            <span class="cpu-reg" data-reg="R0">0</span>
+            <span class="cpu-reg" data-reg="R1" style="margin-left:8px">0</span>
+            <span class="cpu-reg" data-reg="R2" style="margin-left:8px">0</span>
+          </div>
+          <div style="margin-left:auto">
+            <button class="cpu-step">Step</button>
+            <button class="cpu-run">Run</button>
+            <button class="cpu-reset">Reset</button>
+          </div>
+        </div>
+        <p style="margin-top:12px"><strong>Memory:</strong> <code class="cpu-memory">[ ]</code></p>
+      </section>
+
+      <section id="punch">
+        <h3>Punch-card Simulator (mini)</h3>
+        <p>Type lines (each line = one card). Click Run to simulate the reader.</p>
+        <textarea class="punch-input" rows="4" style="width:100%">HELLO
+WORLD</textarea>
+        <div style="margin-top:8px"><button class="punch-run">Run Reader</button></div>
+        <pre class="punch-output" style="margin-top:8px;background:#f7f7f7;padding:8px;border-radius:6px;min-height:48px"></pre>
+      </section>
+
+      <section id="circuit">
+        <h3>Circuit Visualizer (mini flip-flop)</h3>
+        <p>Simple demo: use Set / Reset / Toggle to change the stored bit.</p>
+        <div style="display:flex;gap:12px;align-items:center">
+          <div style="width:48px;height:28px;border-radius:6px;background:#ddd;display:flex;align-items:center;justify-content:center;font-weight:700" class="circuit-led">0</div>
+          <div>
+            <button class="circuit-set">Set</button>
+            <button class="circuit-reset">Reset</button>
+            <button class="circuit-toggle">Toggle</button>
+          </div>
+        </div>
+      </section>
+    </section>
   </main>
 
   <footer class="site-footer">

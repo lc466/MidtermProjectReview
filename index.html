@@ -23,28 +23,34 @@
 
   <main class="container">
     <section class="hero">
-      <h1>Explore computing's story through hands-on demos</h1>
-      <p class="lede">Try interactive emulators, build circuits, and step through computing history.</p>
-      <p><a class="cta" href="/site/missions.html">Try a demo</a></p>
+      <img class="hero-image" src="/site/assets/img/hero.svg" alt="Hero banner">
+      <div class="hero-copy">
+        <h1>Explore computing's story through hands-on demos</h1>
+        <p class="lede">Try interactive emulators, build circuits, and step through computing history.</p>
+        <p><a class="cta" data-activity="explore" href="#">Try a demo</a></p>
+      </div>
     </section>
 
     <section class="featured">
       <h2>Featured Modules</h2>
       <div class="grid grid-3">
         <article class="card">
+          <img src="/site/assets/img/feature1.svg" alt="CPU emulator">
           <h3>CPU Emulator</h3>
           <p>Step through instructions, watch registers change, and learn how CPUs execute programs.</p>
-          <a class="btn" href="/site/missions.html">Try it</a>
+          <a class="btn-primary" data-activity="cpu" href="#">Try it</a>
         </article>
         <article class="card">
+          <img src="/site/assets/img/feature2.svg" alt="Punch-card">
           <h3>Punch-card Simulator</h3>
           <p>Create decks, run the reader, and discover early data workflows.</p>
-          <a class="btn" href="/site/missions.html">Try it</a>
+          <a class="btn-primary" data-activity="punch" href="#">Try it</a>
         </article>
         <article class="card">
+          <img src="/site/assets/img/feature1.svg" alt="Circuit visualizer">
           <h3>Circuit Visualizer</h3>
           <p>See transistors form gates and build a flip-flop in the sandbox.</p>
-          <a class="btn" href="/site/missions.html">Try it</a>
+          <a class="btn-primary" data-activity="circuit" href="#">Try it</a>
         </article>
       </div>
     </section>
@@ -62,5 +68,6 @@
       <small>Spec & project notes: <a href="../SPEC.md">SPEC.md</a></small>
     </div>
   </footer>
+  <script src="/site/js/main.js"></script>
 </body>
 </html>

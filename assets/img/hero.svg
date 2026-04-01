@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="400" viewBox="0 0 1600 400">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b4f6c" />
+      <stop offset="1" stop-color="#6fb3ff" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)" rx="8"/>
+  <g fill="#fff" font-family="Segoe UI, Roboto, Arial" font-weight="700">
+    <text x="48" y="120" font-size="36">Museum — The Evolution of Computing</text>
+    <text x="48" y="170" font-size="20" opacity="0.95">Hands-on demos: emulators, circuits, and historical tools</text>
+  </g>
+  <g opacity="0.12">
+    <circle cx="1400" cy="80" r="80" fill="#fff" />
+    <rect x="1360" y="40" width="120" height="120" rx="12" fill="#fff" />
+  </g>
+</svg>
